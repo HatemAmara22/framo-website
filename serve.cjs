@@ -12,7 +12,6 @@ const routes = new Map([
   ['/assets/boat.svg', [path.join('assets', 'boat.svg'), 'image/svg+xml']],
   ['/assets/favicon.svg', [path.join('assets', 'favicon.svg'), 'image/svg+xml']],
   ['/assets/framo-icon.png', [path.join('assets', 'framo-icon.png'), 'image/png']],
-  ['/assets/framo-icon-rounded.png', [path.join('assets', 'framo-icon-rounded.png'), 'image/png']],
 ]);
 
 const server = http.createServer((request, response) => {
