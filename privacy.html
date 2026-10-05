@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3e7d9">
+  <meta name="color-scheme" content="light only">
+  <meta name="description" content="How the Framo camera app handles your photos and data.">
+  <title>Privacy Policy — Framo</title>
+  <link rel="icon" href="assets/framo-icon-rounded.png" type="image/png">
+  <link rel="preload" href="assets/fonts/dm-sans.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="landing.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="index.html" aria-label="Framo home"><img src="assets/framo-icon-rounded.png" alt="" width="40" height="40">framo.</a>
+    <nav aria-label="Main navigation"><a class="nav-cta" href="index.html">Back to Framo</a></nav>
+  </header>
+  <main id="main" class="legal wrap">
+    <p class="eyebrow">Privacy</p>
+    <h1>Privacy <em>Policy</em></h1>
+    <p class="legal-date">Effective 5 October 2026</p>
+
+    <p class="legal-lead">Framo is a camera app. Your photos are yours: they stay on your phone, we have no servers that store them, no accounts, no ads and no tracking. This page explains the few cases where data leaves your phone.</p>
+
+    <section>
+      <h2>The short version</h2>
+      <ul>
+        <li>Photos you take are saved only on your phone, in your gallery.</li>
+        <li>Framo has no account, no ads, no analytics and does not sell or share data for advertising.</li>
+        <li>Only when you tap the AI scan (✨) button, one small, low-resolution snapshot of the viewfinder is sent to Google’s AI service to suggest a shot.</li>
+        <li>Everything else, including filters, editing, Smart Auto, HDR, Night and face-aware exposure, runs on your phone.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Photos and the camera</h2>
+      <p>Framo uses your camera to take photos and saves them to your phone’s gallery (in a “Framo” folder). Framo asks for access to your photos so it can show the pictures you took in its Photos view. These photos are not uploaded anywhere by Framo.</p>
+      <p>Face-aware exposure uses Google’s on-device face detection (ML Kit, provided through Google Play services). It looks at the live preview on your phone; the images are not sent to us.</p>
+    </section>
+
+    <section>
+      <h2>AI shot discovery</h2>
+      <p>When you tap the AI scan button, Framo sends one small, low-resolution JPEG snapshot of what the camera currently sees, together with instructions, to Google’s Gemini AI service (through Google Firebase). The AI replies with a suggested framing, a short tip and a look. Framo then follows that suggestion on your phone; no further images are sent for that scan.</p>
+      <ul>
+        <li>This only happens when you tap the button. Nothing is sent while you simply use the camera.</li>
+        <li>The photos you actually take are never sent, only the small preview snapshot.</li>
+        <li>We (the Framo developer) do not receive, see or store these snapshots.</li>
+        <li>Google processes the snapshot under its own terms and privacy policy. Depending on the service tier used, Google may keep and use submitted content to provide and improve its services. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google’s Privacy Policy</a> and the <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener noreferrer">Gemini API terms</a>.</li>
+        <li>Don’t use the AI scan on scenes you wouldn’t want shared, such as documents or private information.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>App security checks</h2>
+      <p>To make sure AI requests come from the genuine Framo app, Framo uses Google Firebase App Check with Google Play Integrity. This involves Google checking your app and device integrity and may process technical identifiers about your device and app installation. It is not used for advertising.</p>
+    </section>
+
+    <section>
+      <h2>Stored on your phone</h2>
+      <p>Framo keeps your settings (for example format, grid, timer, favourites) and a count of today’s AI scans on your phone, so it can apply your preferences and the daily scan limit. This stays on your device and is removed if you clear the app’s data or uninstall it.</p>
+    </section>
+
+    <section>
+      <h2>Permissions</h2>
+      <ul>
+        <li><strong>Camera:</strong> to take photos.</li>
+        <li><strong>Photos and media:</strong> to show the photos you took with Framo in its Photos view.</li>
+        <li><strong>Internet:</strong> only for the AI scan and its security check.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Children</h2>
+      <p>Framo is not directed at children under 13, and we do not knowingly collect personal information from children.</p>
+    </section>
+
+    <section>
+      <h2>Your choices</h2>
+      <p>You can use Framo fully without the AI scan; simply don’t tap the ✨ button. You can revoke camera or photo access at any time in your phone’s settings, and delete all of Framo’s stored data by clearing its data or uninstalling it.</p>
+    </section>
+
+    <section>
+      <h2>Changes</h2>
+      <p>If this policy changes, we will update this page and the date at the top.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about privacy? Email <a href="mailto:framosupport@gmail.com">framosupport@gmail.com</a>.</p>
+    </section>
+  </main>
+  <footer class="wrap site-footer"><a class="brand" href="index.html" aria-label="Framo home"><img src="assets/framo-icon-rounded.png" alt="" width="30" height="30">framo.</a><small><a href="privacy.html">Privacy Policy</a></small><small>© <span id="year">2026</span> Framo</small></footer>
+  <script>document.querySelector('#year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

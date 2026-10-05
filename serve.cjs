@@ -5,6 +5,7 @@ const path = require('node:path');
 const routes = new Map([
   ['/', ['index.html', 'text/html; charset=utf-8']],
   ['/index.html', ['index.html', 'text/html; charset=utf-8']],
+  ['/privacy.html', ['privacy.html', 'text/html; charset=utf-8']],
   ['/landing.css', ['landing.css', 'text/css; charset=utf-8']],
   ['/script.js', ['script.js', 'text/javascript; charset=utf-8']],
   ['/assets/coast.svg', [path.join('assets', 'coast.svg'), 'image/svg+xml']],

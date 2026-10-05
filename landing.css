@@ -185,3 +185,17 @@ h1 em { display: inline-block; margin-top: 4px; }
   .comparison { height: 390px; }
   .image-note { left: 4px; right: auto; }
 }
+
+/* Privacy policy page */
+.legal { max-width: 760px; padding-block: 40px 80px; }
+.legal h1 { margin: 14px 0 6px; }
+.legal-date { font-size: 14px; color: var(--muted); }
+.legal-lead { font-size: 20px; line-height: 1.7; margin: 28px 0 8px; }
+.legal section { border-top: 1px solid #80573530; margin-top: 34px; padding-top: 26px; }
+.legal h2 { font-size: 26px; letter-spacing: -.6px; margin: 0 0 12px; }
+.legal p, .legal li { font-size: 17px; line-height: 1.75; color: var(--muted); }
+.legal p + p { margin-top: 12px; }
+.legal ul { padding-left: 20px; margin: 12px 0 0; }
+.legal li + li { margin-top: 6px; }
+.legal strong { color: var(--ink); font-weight: 600; }
+.legal a, .site-footer small a { text-decoration: underline; text-underline-offset: 3px; }
